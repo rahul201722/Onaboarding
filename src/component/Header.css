@@ -1,0 +1,28 @@
+.header {
+    padding-bottom: 2.4rem;
+    background-color: #fff;
+    position: sticky;
+    z-index: 9;
+}
+.title {
+    font-size: 3rem;
+}
+
+.desc {
+    font-size: 1.5rem;
+}
+
+.nav {
+    margin: 0 1rem;
+    color: #333;
+    font-size: 1.6rem;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+}
+
+.active {
+    color: #f00;
+    background-color: #f2f2f2;
+}
+

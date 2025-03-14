@@ -1,0 +1,19 @@
+.main {
+    padding: 6rem 0 10rem;
+}
+.img_uv {
+    width: 100%;
+}
+.title {
+    font-size: 3.8rem;
+    padding: 12rem 0 .6rem;
+}
+.desc {
+    font-size: 1.6rem;
+    padding: 0 0 16rem;
+}
+.img_outdoor {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}

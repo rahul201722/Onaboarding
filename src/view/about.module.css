@@ -1,0 +1,16 @@
+.title {
+    font-size: 4.2rem;
+    padding: 10rem 0 4rem;
+}
+
+.desc {
+    line-height: 1.6;
+    text-indent: 2em;
+}
+
+@media (min-width:1200px) {
+    .desc {
+        width: 50%;
+        font-size: 1.8rem;
+    }
+}
