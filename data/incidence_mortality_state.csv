@@ -1,0 +1,757 @@
+Cancer group/site,Year,Sex,State or Territory,Mortality Count,Mortality Rate,Incidence Rate,Incidence Count
+Melanoma of the skin,2007,Males,New South Wales,339,13.3,76.3,2126
+Melanoma of the skin,2007,Males,Victoria,182,9.3,56.4,1188
+Melanoma of the skin,2007,Males,Queensland,211,14.4,96.2,1591
+Melanoma of the skin,2007,Males,Western Australia,88,12.3,67.6,575
+Melanoma of the skin,2007,Males,South Australia,55,8.2,48.9,342
+Melanoma of the skin,2007,Males,Tasmania,12,6.3,60.2,127
+Melanoma of the skin,2007,Males,Australian Capital Territory,14,12.9,64.2,72
+Melanoma of the skin,2007,Males,Northern Territory,3,,40.3,30
+Melanoma of the skin,2007,Males,Australia,909,11.8,71.1,6034
+Melanoma of the skin,2007,Females,New South Wales,138,4.2,43.0,1420
+Melanoma of the skin,2007,Females,Victoria,95,3.8,39.5,986
+Melanoma of the skin,2007,Females,Queensland,90,5.1,59.3,1125
+Melanoma of the skin,2007,Females,Western Australia,36,3.9,44.1,412
+Melanoma of the skin,2007,Females,South Australia,34,4.2,34.1,279
+Melanoma of the skin,2007,Females,Tasmania,4,,42.2,109
+Melanoma of the skin,2007,Females,Australian Capital Territory,4,,40.5,59
+Melanoma of the skin,2007,Females,Northern Territory,1,,26.4,20
+Melanoma of the skin,2007,Females,Australia,400,4.1,44.3,4400
+Melanoma of the skin,2007,Persons,New South Wales,477,8.2,57.8,3546
+Melanoma of the skin,2007,Persons,Victoria,277,6.2,47.0,2174
+Melanoma of the skin,2007,Persons,Queensland,301,9.2,76.3,2716
+Melanoma of the skin,2007,Persons,Western Australia,124,7.6,54.9,987
+Melanoma of the skin,2007,Persons,South Australia,89,5.8,40.3,621
+Melanoma of the skin,2007,Persons,Tasmania,16,3.5,49.2,236
+Melanoma of the skin,2007,Persons,Australian Capital Territory,18,7.7,50.8,131
+Melanoma of the skin,2007,Persons,Northern Territory,4,,33.8,50
+Melanoma of the skin,2007,Persons,Australia,1309,7.5,56.3,10434
+Melanoma of the skin,2008,Males,New South Wales,347,12.9,74.9,2155
+Melanoma of the skin,2008,Males,Victoria,187,9.3,58.4,1247
+Melanoma of the skin,2008,Males,Queensland,213,14.3,103.9,1776
+Melanoma of the skin,2008,Males,Western Australia,93,12.3,77.6,658
+Melanoma of the skin,2008,Males,South Australia,78,12.3,59.0,413
+Melanoma of the skin,2008,Males,Tasmania,27,12.1,70.7,163
+Melanoma of the skin,2008,Males,Australian Capital Territory,14,13.3,66.0,76
+Melanoma of the skin,2008,Males,Northern Territory,3,,41.0,29
+Melanoma of the skin,2008,Males,Australia,959,12.1,75.0,6529
+Melanoma of the skin,2008,Females,New South Wales,150,4.4,44.7,1489
+Melanoma of the skin,2008,Females,Victoria,89,3.5,38.3,982
+Melanoma of the skin,2008,Females,Queensland,95,5.3,61.1,1193
+Melanoma of the skin,2008,Females,Western Australia,30,3.2,44.0,425
+Melanoma of the skin,2008,Females,South Australia,38,4.4,39.0,325
+Melanoma of the skin,2008,Females,Tasmania,13,5.3,45.6,114
+Melanoma of the skin,2008,Females,Australian Capital Territory,5,3.7,41.9,62
+Melanoma of the skin,2008,Females,Northern Territory,1,,28.3,20
+Melanoma of the skin,2008,Females,Australia,424,4.2,45.5,4606
+Melanoma of the skin,2008,Persons,New South Wales,497,8.2,58.1,3644
+Melanoma of the skin,2008,Persons,Victoria,276,6.1,47.0,2229
+Melanoma of the skin,2008,Persons,Queensland,308,9.3,80.7,2969
+Melanoma of the skin,2008,Persons,Western Australia,123,7.4,59.2,1083
+Melanoma of the skin,2008,Persons,South Australia,116,7.5,47.5,738
+Melanoma of the skin,2008,Persons,Tasmania,40,8.4,56.4,277
+Melanoma of the skin,2008,Persons,Australian Capital Territory,18,7.9,52.3,139
+Melanoma of the skin,2008,Persons,Northern Territory,4,,35.2,49
+Melanoma of the skin,2008,Persons,Australia,1383,7.7,58.6,11135
+Melanoma of the skin,2009,Males,New South Wales,353,13.0,74.3,2190
+Melanoma of the skin,2009,Males,Victoria,218,10.6,60.8,1332
+Melanoma of the skin,2009,Males,Queensland,198,12.4,102.5,1787
+Melanoma of the skin,2009,Males,Western Australia,90,11.6,72.9,637
+Melanoma of the skin,2009,Males,South Australia,64,9.5,53.1,381
+Melanoma of the skin,2009,Males,Tasmania,18,8.2,67.7,159
+Melanoma of the skin,2009,Males,Australian Capital Territory,14,13.1,65.3,77
+Melanoma of the skin,2009,Males,Northern Territory,3,,42.7,30
+Melanoma of the skin,2009,Males,Australia,956,11.7,74.0,6598
+Melanoma of the skin,2009,Females,New South Wales,170,4.9,44.9,1534
+Melanoma of the skin,2009,Females,Victoria,95,3.6,40.5,1048
+Melanoma of the skin,2009,Females,Queensland,92,4.9,64.0,1264
+Melanoma of the skin,2009,Females,Western Australia,47,5.0,39.2,399
+Melanoma of the skin,2009,Females,South Australia,26,3.2,34.7,289
+Melanoma of the skin,2009,Females,Tasmania,16,6.2,43.6,115
+Melanoma of the skin,2009,Females,Australian Capital Territory,6,4.2,37.7,57
+Melanoma of the skin,2009,Females,Northern Territory,1,,31.7,20
+Melanoma of the skin,2009,Females,Australia,454,4.5,45.7,4708
+Melanoma of the skin,2009,Persons,New South Wales,523,8.5,58.2,3724
+Melanoma of the skin,2009,Persons,Victoria,313,6.7,49.4,2380
+Melanoma of the skin,2009,Persons,Queensland,290,8.3,81.6,3051
+Melanoma of the skin,2009,Persons,Western Australia,137,8.0,54.9,1036
+Melanoma of the skin,2009,Persons,South Australia,90,5.8,43.0,670
+Melanoma of the skin,2009,Persons,Tasmania,34,7.2,54.8,274
+Melanoma of the skin,2009,Persons,Australian Capital Territory,19,8.2,49.6,135
+Melanoma of the skin,2009,Persons,Northern Territory,4,,37.9,50
+Melanoma of the skin,2009,Persons,Australia,1410,7.7,58.5,11306
+Melanoma of the skin,2010,Males,New South Wales,370,13.6,78.3,2336
+Melanoma of the skin,2010,Males,Victoria,202,9.4,57.8,1304
+Melanoma of the skin,2010,Males,Queensland,232,14.4,103.5,1842
+Melanoma of the skin,2010,Males,Western Australia,88,10.6,72.5,646
+Melanoma of the skin,2010,Males,South Australia,67,9.4,52.1,386
+Melanoma of the skin,2010,Males,Tasmania,20,8.5,66.3,158
+Melanoma of the skin,2010,Males,Australian Capital Territory,14,13.1,62.4,74
+Melanoma of the skin,2010,Males,Northern Territory,4,,46.7,32
+Melanoma of the skin,2010,Males,Australia,995,11.9,74.8,6796
+Melanoma of the skin,2010,Females,New South Wales,144,4.2,45.1,1563
+Melanoma of the skin,2010,Females,Victoria,92,3.5,36.8,971
+Melanoma of the skin,2010,Females,Queensland,118,6.1,62.3,1268
+Melanoma of the skin,2010,Females,Western Australia,37,3.8,37.7,388
+Melanoma of the skin,2010,Females,South Australia,18,2.0,36.4,311
+Melanoma of the skin,2010,Females,Tasmania,10,3.8,50.2,134
+Melanoma of the skin,2010,Females,Australian Capital Territory,5,4.2,32.4,50
+Melanoma of the skin,2010,Females,Northern Territory,1,,30.0,21
+Melanoma of the skin,2010,Females,Australia,423,4.1,44.7,4703
+Melanoma of the skin,2010,Persons,New South Wales,514,8.2,59.9,3899
+Melanoma of the skin,2010,Persons,Victoria,294,6.2,46.2,2275
+Melanoma of the skin,2010,Persons,Queensland,350,9.9,81.3,3110
+Melanoma of the skin,2010,Persons,Western Australia,125,6.9,53.6,1034
+Melanoma of the skin,2010,Persons,South Australia,85,5.3,43.2,697
+Melanoma of the skin,2010,Persons,Tasmania,30,6.0,57.5,292
+Melanoma of the skin,2010,Persons,Australian Capital Territory,19,8.1,45.7,124
+Melanoma of the skin,2010,Persons,Northern Territory,5,4.9,38.7,53
+Melanoma of the skin,2010,Persons,Australia,1418,7.5,58.3,11499
+Melanoma of the skin,2011,Males,New South Wales,366,13.0,77.9,2399
+Melanoma of the skin,2011,Males,Victoria,217,10.0,49.8,1172
+Melanoma of the skin,2011,Males,Queensland,247,14.9,103.9,1924
+Melanoma of the skin,2011,Males,Western Australia,135,17.3,72.1,665
+Melanoma of the skin,2011,Males,South Australia,73,9.8,53.6,404
+Melanoma of the skin,2011,Males,Tasmania,27,12.0,54.2,131
+Melanoma of the skin,2011,Males,Australian Capital Territory,12,11.9,62.4,76
+Melanoma of the skin,2011,Males,Northern Territory,3,,49.5,33
+Melanoma of the skin,2011,Males,Australia,1076,12.6,72.3,6800
+Melanoma of the skin,2011,Females,New South Wales,153,4.3,46.1,1616
+Melanoma of the skin,2011,Females,Victoria,107,3.9,33.3,900
+Melanoma of the skin,2011,Females,Queensland,96,4.7,66.1,1379
+Melanoma of the skin,2011,Females,Western Australia,46,4.5,42.2,449
+Melanoma of the skin,2011,Females,South Australia,26,2.9,33.2,287
+Melanoma of the skin,2011,Females,Tasmania,16,5.5,49.0,129
+Melanoma of the skin,2011,Females,Australian Capital Territory,5,3.6,30.6,48
+Melanoma of the skin,2011,Females,Northern Territory,2,,31.1,22
+Melanoma of the skin,2011,Females,Australia,453,4.2,45.2,4837
+Melanoma of the skin,2011,Persons,New South Wales,519,8.2,60.3,4015
+Melanoma of the skin,2011,Persons,Victoria,324,6.6,40.9,2072
+Melanoma of the skin,2011,Persons,Queensland,343,9.3,83.7,3303
+Melanoma of the skin,2011,Persons,Western Australia,181,10.2,55.8,1114
+Melanoma of the skin,2011,Persons,South Australia,99,6.0,42.5,691
+Melanoma of the skin,2011,Persons,Tasmania,43,8.6,50.8,260
+Melanoma of the skin,2011,Persons,Australian Capital Territory,17,7.1,44.7,124
+Melanoma of the skin,2011,Persons,Northern Territory,5,4.4,40.8,55
+Melanoma of the skin,2011,Persons,Australia,1529,7.9,57.5,11637
+Melanoma of the skin,2012,Males,New South Wales,368,12.6,79.1,2490
+Melanoma of the skin,2012,Males,Victoria,210,9.7,54.2,1292
+Melanoma of the skin,2012,Males,Queensland,231,14.1,106.7,2014
+Melanoma of the skin,2012,Males,Western Australia,112,13.0,73.1,694
+Melanoma of the skin,2012,Males,South Australia,64,8.9,51.4,393
+Melanoma of the skin,2012,Males,Tasmania,28,12.7,57.3,146
+Melanoma of the skin,2012,Males,Australian Capital Territory,12,11.6,63.9,79
+Melanoma of the skin,2012,Males,Northern Territory,5,10.1,56.4,37
+Melanoma of the skin,2012,Males,Australia,1039,12.0,74.5,7152
+Melanoma of the skin,2012,Females,New South Wales,177,4.8,47.0,1699
+Melanoma of the skin,2012,Females,Victoria,104,3.8,35.6,988
+Melanoma of the skin,2012,Females,Queensland,105,5.0,67.3,1430
+Melanoma of the skin,2012,Females,Western Australia,39,3.9,40.9,451
+Melanoma of the skin,2012,Females,South Australia,37,4.1,34.9,302
+Melanoma of the skin,2012,Females,Tasmania,21,7.6,39.9,109
+Melanoma of the skin,2012,Females,Australian Capital Territory,6,4.2,33.4,54
+Melanoma of the skin,2012,Females,Northern Territory,1,,34.0,23
+Melanoma of the skin,2012,Females,Australia,490,4.5,46.2,5081
+Melanoma of the skin,2012,Persons,New South Wales,545,8.3,61.6,4189
+Melanoma of the skin,2012,Persons,Victoria,314,6.4,43.9,2280
+Melanoma of the skin,2012,Persons,Queensland,336,9.1,85.6,3444
+Melanoma of the skin,2012,Persons,Western Australia,151,7.9,55.8,1145
+Melanoma of the skin,2012,Persons,South Australia,101,6.2,42.3,695
+Melanoma of the skin,2012,Persons,Tasmania,49,9.9,48.5,255
+Melanoma of the skin,2012,Persons,Australian Capital Territory,18,7.2,46.8,132
+Melanoma of the skin,2012,Persons,Northern Territory,6,5.9,46.2,60
+Melanoma of the skin,2012,Persons,Australia,1529,7.8,59.1,12233
+Melanoma of the skin,2013,Males,New South Wales,398,13.3,79.0,2540
+Melanoma of the skin,2013,Males,Victoria,249,10.7,54.9,1330
+Melanoma of the skin,2013,Males,Queensland,313,18.0,111.4,2163
+Melanoma of the skin,2013,Males,Western Australia,109,12.7,79.9,780
+Melanoma of the skin,2013,Males,South Australia,70,9.4,56.8,437
+Melanoma of the skin,2013,Males,Tasmania,21,8.8,55.7,139
+Melanoma of the skin,2013,Males,Australian Capital Territory,12,11.0,63.1,81
+Melanoma of the skin,2013,Males,Northern Territory,5,10.0,55.1,39
+Melanoma of the skin,2013,Males,Australia,1177,12.9,76.7,7523
+Melanoma of the skin,2013,Females,New South Wales,155,4.2,48.0,1767
+Melanoma of the skin,2013,Females,Victoria,118,4.1,35.4,1002
+Melanoma of the skin,2013,Females,Queensland,110,5.2,69.8,1530
+Melanoma of the skin,2013,Females,Western Australia,51,4.8,48.7,532
+Melanoma of the skin,2013,Females,South Australia,36,3.8,31.8,284
+Melanoma of the skin,2013,Females,Tasmania,12,4.4,49.4,136
+Melanoma of the skin,2013,Females,Australian Capital Territory,5,3.7,33.9,54
+Melanoma of the skin,2013,Females,Northern Territory,2,,35.1,24
+Melanoma of the skin,2013,Females,Australia,489,4.4,47.6,5339
+Melanoma of the skin,2013,Persons,New South Wales,553,8.2,62.2,4307
+Melanoma of the skin,2013,Persons,Victoria,367,7.1,44.1,2332
+Melanoma of the skin,2013,Persons,Queensland,423,10.9,89.3,3693
+Melanoma of the skin,2013,Persons,Western Australia,160,8.3,62.9,1312
+Melanoma of the skin,2013,Persons,South Australia,106,6.4,42.9,721
+Melanoma of the skin,2013,Persons,Tasmania,33,6.3,51.7,275
+Melanoma of the skin,2013,Persons,Australian Capital Territory,17,6.7,46.9,135
+Melanoma of the skin,2013,Persons,Northern Territory,7,6.0,46.6,63
+Melanoma of the skin,2013,Persons,Australia,1666,8.2,60.9,12862
+Melanoma of the skin,2014,Males,New South Wales,336,10.8,78.1,2558
+Melanoma of the skin,2014,Males,Victoria,190,8.3,56.0,1402
+Melanoma of the skin,2014,Males,Queensland,250,13.9,111.1,2199
+Melanoma of the skin,2014,Males,Western Australia,103,11.7,76.4,770
+Melanoma of the skin,2014,Males,South Australia,90,12.0,60.6,478
+Melanoma of the skin,2014,Males,Tasmania,23,9.2,63.2,163
+Melanoma of the skin,2014,Males,Australian Capital Territory,11,9.8,62.7,81
+Melanoma of the skin,2014,Males,Northern Territory,6,10.4,62.7,43
+Melanoma of the skin,2014,Males,Australia,1004,10.8,76.8,7705
+Melanoma of the skin,2014,Females,New South Wales,165,4.3,47.9,1797
+Melanoma of the skin,2014,Females,Victoria,88,3.0,36.7,1064
+Melanoma of the skin,2014,Females,Queensland,102,4.7,67.6,1507
+Melanoma of the skin,2014,Females,Western Australia,49,4.5,46.6,530
+Melanoma of the skin,2014,Females,South Australia,33,3.6,34.7,310
+Melanoma of the skin,2014,Females,Tasmania,14,4.8,60.1,169
+Melanoma of the skin,2014,Females,Australian Capital Territory,5,3.4,38.6,63
+Melanoma of the skin,2014,Females,Northern Territory,2,,32.8,25
+Melanoma of the skin,2014,Females,Australia,461,4.0,47.9,5483
+Melanoma of the skin,2014,Persons,New South Wales,501,7.3,61.6,4355
+Melanoma of the skin,2014,Persons,Victoria,278,5.3,45.4,2466
+Melanoma of the skin,2014,Persons,Queensland,352,8.9,87.7,3706
+Melanoma of the skin,2014,Persons,Western Australia,152,7.7,60.3,1300
+Melanoma of the skin,2014,Persons,South Australia,123,7.2,46.4,788
+Melanoma of the skin,2014,Persons,Tasmania,37,6.8,61.3,332
+Melanoma of the skin,2014,Persons,Australian Capital Territory,16,6.0,49.1,144
+Melanoma of the skin,2014,Persons,Northern Territory,8,6.4,49.1,68
+Melanoma of the skin,2014,Persons,Australia,1465,7.1,61.1,13188
+Melanoma of the skin,2015,Males,New South Wales,386,12.4,76.9,2581
+Melanoma of the skin,2015,Males,Victoria,215,9.0,59.9,1533
+Melanoma of the skin,2015,Males,Queensland,221,12.0,106.8,2192
+Melanoma of the skin,2015,Males,Western Australia,102,11.1,87.4,895
+Melanoma of the skin,2015,Males,South Australia,74,9.3,58.3,471
+Melanoma of the skin,2015,Males,Tasmania,18,7.7,64.2,166
+Melanoma of the skin,2015,Males,Australian Capital Territory,12,9.8,62.1,84
+Melanoma of the skin,2015,Males,Northern Territory,6,10.2,67.3,48
+Melanoma of the skin,2015,Males,Australia,1039,10.9,77.7,8004
+Melanoma of the skin,2015,Females,New South Wales,176,4.6,47.0,1780
+Melanoma of the skin,2015,Females,Victoria,111,3.7,39.3,1162
+Melanoma of the skin,2015,Females,Queensland,97,4.2,68.3,1561
+Melanoma of the skin,2015,Females,Western Australia,54,4.8,57.7,669
+Melanoma of the skin,2015,Females,South Australia,24,2.5,32.1,295
+Melanoma of the skin,2015,Females,Tasmania,5,1.8,48.3,136
+Melanoma of the skin,2015,Females,Australian Capital Territory,6,3.6,42.2,70
+Melanoma of the skin,2015,Females,Northern Territory,2,,37.6,27
+Melanoma of the skin,2015,Females,Australia,475,4.0,49.1,5714
+Melanoma of the skin,2015,Persons,New South Wales,562,8.0,60.7,4361
+Melanoma of the skin,2015,Persons,Victoria,326,6.0,48.6,2695
+Melanoma of the skin,2015,Persons,Queensland,318,7.7,86.3,3753
+Melanoma of the skin,2015,Persons,Western Australia,156,7.6,71.5,1564
+Melanoma of the skin,2015,Persons,South Australia,98,5.6,44.1,766
+Melanoma of the skin,2015,Persons,Tasmania,23,4.3,55.2,302
+Melanoma of the skin,2015,Persons,Australian Capital Territory,18,6.2,50.8,153
+Melanoma of the skin,2015,Persons,Northern Territory,8,6.3,53.9,75
+Melanoma of the skin,2015,Persons,Australia,1514,7.1,62.3,13718
+Melanoma of the skin,2016,Males,New South Wales,288,8.9,83.0,2858
+Melanoma of the skin,2016,Males,Victoria,178,7.1,59.0,1569
+Melanoma of the skin,2016,Males,Queensland,213,11.2,111.2,2331
+Melanoma of the skin,2016,Males,Western Australia,91,9.4,85.7,912
+Melanoma of the skin,2016,Males,South Australia,56,7.2,55.6,463
+Melanoma of the skin,2016,Males,Tasmania,23,8.9,70.5,185
+Melanoma of the skin,2016,Males,Australian Capital Territory,11,9.1,66.3,92
+Melanoma of the skin,2016,Males,Northern Territory,6,9.6,71.1,54
+Melanoma of the skin,2016,Males,Australia,858,8.7,80.1,8491
+Melanoma of the skin,2016,Females,New South Wales,131,3.3,49.7,1927
+Melanoma of the skin,2016,Females,Victoria,85,2.8,41.2,1251
+Melanoma of the skin,2016,Females,Queensland,88,3.9,69.9,1633
+Melanoma of the skin,2016,Females,Western Australia,36,3.2,53.5,624
+Melanoma of the skin,2016,Females,South Australia,39,3.8,36.8,341
+Melanoma of the skin,2016,Females,Tasmania,7,2.5,52.0,148
+Melanoma of the skin,2016,Females,Australian Capital Territory,7,4.1,44.6,75
+Melanoma of the skin,2016,Females,Northern Territory,2,,38.3,28
+Melanoma of the skin,2016,Females,Australia,396,3.3,50.7,6034
+Melanoma of the skin,2016,Persons,New South Wales,419,5.8,65.1,4785
+Melanoma of the skin,2016,Persons,Victoria,263,4.7,49.2,2820
+Melanoma of the skin,2016,Persons,Queensland,301,7.2,89.3,3964
+Melanoma of the skin,2016,Persons,Western Australia,127,6.1,68.6,1536
+Melanoma of the skin,2016,Persons,South Australia,95,5.3,45.5,804
+Melanoma of the skin,2016,Persons,Tasmania,30,5.5,60.7,333
+Melanoma of the skin,2016,Persons,Australian Capital Territory,18,6.2,54.1,167
+Melanoma of the skin,2016,Persons,Northern Territory,8,6.5,56.3,82
+Melanoma of the skin,2016,Persons,Australia,1254,5.8,64.3,14525
+Melanoma of the skin,2017,Males,New South Wales,319,9.7,84.7,2975
+Melanoma of the skin,2017,Males,Victoria,162,6.4,61.6,1673
+Melanoma of the skin,2017,Males,Queensland,241,12.5,113.7,2477
+Melanoma of the skin,2017,Males,Western Australia,89,9.6,80.7,867
+Melanoma of the skin,2017,Males,South Australia,59,7.2,55.3,467
+Melanoma of the skin,2017,Males,Tasmania,23,8.1,66.8,181
+Melanoma of the skin,2017,Males,Australian Capital Territory,10,8.1,74.3,107
+Melanoma of the skin,2017,Males,Northern Territory,5,7.2,69.1,52
+Melanoma of the skin,2017,Males,Australia,908,9.1,81.4,8833
+Melanoma of the skin,2017,Females,New South Wales,186,4.6,49.6,1957
+Melanoma of the skin,2017,Females,Victoria,111,3.5,42.2,1310
+Melanoma of the skin,2017,Females,Queensland,106,4.4,70.1,1671
+Melanoma of the skin,2017,Females,Western Australia,46,3.9,48.4,586
+Melanoma of the skin,2017,Females,South Australia,25,2.5,35.4,332
+Melanoma of the skin,2017,Females,Tasmania,7,2.4,53.1,158
+Melanoma of the skin,2017,Females,Australian Capital Territory,8,4.8,44.7,77
+Melanoma of the skin,2017,Females,Northern Territory,2,,38.9,29
+Melanoma of the skin,2017,Females,Australia,495,4.0,50.4,6129
+Melanoma of the skin,2017,Persons,New South Wales,505,6.8,65.9,4932
+Melanoma of the skin,2017,Persons,Victoria,273,4.8,51.0,2983
+Melanoma of the skin,2017,Persons,Queensland,347,8.1,90.5,4148
+Melanoma of the skin,2017,Persons,Western Australia,135,6.3,63.5,1453
+Melanoma of the skin,2017,Persons,South Australia,84,4.7,44.6,799
+Melanoma of the skin,2017,Persons,Tasmania,30,5.1,59.2,339
+Melanoma of the skin,2017,Persons,Australian Capital Territory,18,6.1,58.0,184
+Melanoma of the skin,2017,Persons,Northern Territory,7,5.2,55.2,81
+Melanoma of the skin,2017,Persons,Australia,1403,6.3,64.8,14962
+Melanoma of the skin,2018,Males,New South Wales,333,9.9,82.9,2984
+Melanoma of the skin,2018,Males,Victoria,195,7.4,63.5,1766
+Melanoma of the skin,2018,Males,Queensland,235,11.8,105.5,2341
+Melanoma of the skin,2018,Males,Western Australia,80,8.2,76.8,857
+Melanoma of the skin,2018,Males,South Australia,62,7.5,55.5,476
+Melanoma of the skin,2018,Males,Tasmania,33,12.7,71.6,205
+Melanoma of the skin,2018,Males,Australian Capital Territory,12,9.6,77.2,114
+Melanoma of the skin,2018,Males,Northern Territory,5,8.3,70.9,53
+Melanoma of the skin,2018,Males,Australia,966,9.4,79.3,8807
+Melanoma of the skin,2018,Females,New South Wales,139,3.4,50.4,2021
+Melanoma of the skin,2018,Females,Victoria,97,3.1,41.5,1311
+Melanoma of the skin,2018,Females,Queensland,88,3.6,70.6,1731
+Melanoma of the skin,2018,Females,Western Australia,52,4.3,51.0,627
+Melanoma of the skin,2018,Females,South Australia,23,2.2,32.2,309
+Melanoma of the skin,2018,Females,Tasmania,12,3.9,66.0,196
+Melanoma of the skin,2018,Females,Australian Capital Territory,8,4.8,45.3,81
+Melanoma of the skin,2018,Females,Northern Territory,2,,37.6,30
+Melanoma of the skin,2018,Females,Australia,417,3.3,50.9,6315
+Melanoma of the skin,2018,Persons,New South Wales,472,6.3,65.5,5005
+Melanoma of the skin,2018,Persons,Victoria,292,5.0,51.5,3078
+Melanoma of the skin,2018,Persons,Queensland,323,7.3,86.9,4072
+Melanoma of the skin,2018,Persons,Western Australia,132,5.9,63.1,1484
+Melanoma of the skin,2018,Persons,South Australia,85,4.7,42.8,785
+Melanoma of the skin,2018,Persons,Tasmania,45,7.9,68.5,401
+Melanoma of the skin,2018,Persons,Australian Capital Territory,20,6.9,59.6,195
+Melanoma of the skin,2018,Persons,Northern Territory,7,5.5,54.4,83
+Melanoma of the skin,2018,Persons,Australia,1383,6.1,64.0,15123
+Melanoma of the skin,2019,Males,New South Wales,307,8.9,82.0,3012
+Melanoma of the skin,2019,Males,Victoria,189,7.0,57.6,1632
+Melanoma of the skin,2019,Males,Queensland,212,10.1,113.2,2601
+Melanoma of the skin,2019,Males,Western Australia,104,10.2,81.7,945
+Melanoma of the skin,2019,Males,South Australia,79,9.2,61.8,545
+Melanoma of the skin,2019,Males,Tasmania,26,9.1,78.2,224
+Melanoma of the skin,2019,Males,Australian Capital Territory,14,10.9,78.2,120
+Melanoma of the skin,2019,Males,Northern Territory,6,8.9,74.3,55
+Melanoma of the skin,2019,Males,Australia,942,8.9,80.2,9135
+Melanoma of the skin,2019,Females,New South Wales,157,3.7,51.0,2077
+Melanoma of the skin,2019,Females,Victoria,85,2.6,37.3,1202
+Melanoma of the skin,2019,Females,Queensland,99,4.0,73.6,1845
+Melanoma of the skin,2019,Females,Western Australia,45,3.6,52.9,676
+Melanoma of the skin,2019,Females,South Australia,33,3.1,35.9,357
+Melanoma of the skin,2019,Females,Tasmania,14,4.2,61.5,188
+Melanoma of the skin,2019,Females,Australian Capital Territory,8,4.6,46.8,86
+Melanoma of the skin,2019,Females,Northern Territory,1,,39.1,33
+Melanoma of the skin,2019,Females,Australia,441,3.4,51.2,6491
+Melanoma of the skin,2019,Persons,New South Wales,464,6.0,65.4,5089
+Melanoma of the skin,2019,Persons,Victoria,274,4.6,46.5,2834
+Melanoma of the skin,2019,Persons,Queensland,311,6.8,92.3,4446
+Melanoma of the skin,2019,Persons,Western Australia,149,6.5,66.5,1621
+Melanoma of the skin,2019,Persons,South Australia,112,5.8,48.0,902
+Melanoma of the skin,2019,Persons,Tasmania,40,6.5,69.2,412
+Melanoma of the skin,2019,Persons,Australian Capital Territory,22,7.3,61.1,205
+Melanoma of the skin,2019,Persons,Northern Territory,7,5.9,56.5,88
+Melanoma of the skin,2019,Persons,Australia,1383,5.9,64.7,15626
+Melanoma of the skin,2020,Males,New South Wales,347,9.9,77.1,2894
+Melanoma of the skin,2020,Males,Victoria,183,6.9,51.4,1493
+Melanoma of the skin,2020,Males,Queensland,222,10.2,102.3,2408
+Melanoma of the skin,2020,Males,Western Australia,85,7.6,68.8,817
+Melanoma of the skin,2020,Males,South Australia,68,7.7,60.5,544
+Melanoma of the skin,2020,Males,Tasmania,28,9.4,75.5,221
+Melanoma of the skin,2020,Males,Australian Capital Territory,15,11.1,76.4,120
+Melanoma of the skin,2020,Males,Northern Territory,5,6.8,71.9,55
+Melanoma of the skin,2020,Males,Australia,954,8.8,73.2,8546
+Melanoma of the skin,2020,Females,New South Wales,146,3.3,48.5,2024
+Melanoma of the skin,2020,Females,Victoria,98,2.8,32.7,1093
+Melanoma of the skin,2020,Females,Queensland,105,4.1,67.8,1761
+Melanoma of the skin,2020,Females,Western Australia,38,3.0,45.2,597
+Melanoma of the skin,2020,Females,South Australia,39,3.6,34.4,347
+Melanoma of the skin,2020,Females,Tasmania,9,2.8,65.7,205
+Melanoma of the skin,2020,Females,Australian Capital Territory,8,4.6,44.6,85
+Melanoma of the skin,2020,Females,Northern Territory,2,,36.5,33
+Melanoma of the skin,2020,Females,Australia,445,3.3,47.0,6135
+Melanoma of the skin,2020,Persons,New South Wales,493,6.2,61.7,4918
+Melanoma of the skin,2020,Persons,Victoria,281,4.6,41.2,2586
+Melanoma of the skin,2020,Persons,Queensland,327,6.9,83.8,4169
+Melanoma of the skin,2020,Persons,Western Australia,123,5.1,56.2,1417
+Melanoma of the skin,2020,Persons,South Australia,107,5.5,46.3,891
+Melanoma of the skin,2020,Persons,Tasmania,37,5.9,70.3,428
+Melanoma of the skin,2020,Persons,Australian Capital Territory,23,7.4,59.0,205
+Melanoma of the skin,2020,Persons,Northern Territory,6,5.1,54.0,88
+Melanoma of the skin,2020,Persons,Australia,1399,5.8,59.1,14686
+Non-melanoma skin cancer (rare types),2007,Males,New South Wales,35,1.4,7.2,178
+Non-melanoma skin cancer (rare types),2007,Males,Victoria,6,0.4,2.7,53
+Non-melanoma skin cancer (rare types),2007,Males,Queensland,23,1.8,7.7,109
+Non-melanoma skin cancer (rare types),2007,Males,Western Australia,12,1.7,7.0,48
+Non-melanoma skin cancer (rare types),2007,Males,South Australia,4,,2.2,14
+Non-melanoma skin cancer (rare types),2007,Males,Tasmania,1,,5.5,12
+Non-melanoma skin cancer (rare types),2007,Males,Australian Capital Territory,1,,5.8,5
+Non-melanoma skin cancer (rare types),2007,Males,Northern Territory,0,,,0
+Non-melanoma skin cancer (rare types),2007,Males,Australia,82,1.1,5.6,416
+Non-melanoma skin cancer (rare types),2007,Females,New South Wales,22,0.6,3.6,119
+Non-melanoma skin cancer (rare types),2007,Females,Victoria,5,0.2,1.5,36
+Non-melanoma skin cancer (rare types),2007,Females,Queensland,8,0.5,2.8,49
+Non-melanoma skin cancer (rare types),2007,Females,Western Australia,7,0.8,2.9,25
+Non-melanoma skin cancer (rare types),2007,Females,South Australia,5,0.5,0.8,7
+Non-melanoma skin cancer (rare types),2007,Females,Tasmania,5,2.0,2.4,6
+Non-melanoma skin cancer (rare types),2007,Females,Australian Capital Territory,0,,,2
+Non-melanoma skin cancer (rare types),2007,Females,Northern Territory,0,0.0,0.0,0
+Non-melanoma skin cancer (rare types),2007,Females,Australia,52,0.5,2.5,242
+Non-melanoma skin cancer (rare types),2007,Persons,New South Wales,57,1.0,5.1,297
+Non-melanoma skin cancer (rare types),2007,Persons,Victoria,11,0.3,2.0,89
+Non-melanoma skin cancer (rare types),2007,Persons,Queensland,31,1.1,5.0,158
+Non-melanoma skin cancer (rare types),2007,Persons,Western Australia,19,1.3,4.6,73
+Non-melanoma skin cancer (rare types),2007,Persons,South Australia,9,0.6,1.4,21
+Non-melanoma skin cancer (rare types),2007,Persons,Tasmania,6,1.4,3.9,18
+Non-melanoma skin cancer (rare types),2007,Persons,Australian Capital Territory,1,,3.5,7
+Non-melanoma skin cancer (rare types),2007,Persons,Northern Territory,0,,,0
+Non-melanoma skin cancer (rare types),2007,Persons,Australia,134,0.8,3.8,658
+Non-melanoma skin cancer (rare types),2008,Males,New South Wales,28,1.2,6.7,166
+Non-melanoma skin cancer (rare types),2008,Males,Victoria,6,0.4,2.1,40
+Non-melanoma skin cancer (rare types),2008,Males,Queensland,25,1.8,8.1,119
+Non-melanoma skin cancer (rare types),2008,Males,Western Australia,5,0.9,7.2,52
+Non-melanoma skin cancer (rare types),2008,Males,South Australia,4,,1.7,11
+Non-melanoma skin cancer (rare types),2008,Males,Tasmania,2,,3.9,7
+Non-melanoma skin cancer (rare types),2008,Males,Australian Capital Territory,2,,,4
+Non-melanoma skin cancer (rare types),2008,Males,Northern Territory,0,,,1
+Non-melanoma skin cancer (rare types),2008,Males,Australia,75,1.1,5.3,402
+Non-melanoma skin cancer (rare types),2008,Females,New South Wales,24,0.7,3.9,127
+Non-melanoma skin cancer (rare types),2008,Females,Victoria,6,0.2,1.2,30
+Non-melanoma skin cancer (rare types),2008,Females,Queensland,11,0.6,2.2,38
+Non-melanoma skin cancer (rare types),2008,Females,Western Australia,3,,3.1,29
+Non-melanoma skin cancer (rare types),2008,Females,South Australia,4,,0.6,6
+Non-melanoma skin cancer (rare types),2008,Females,Tasmania,0,0.0,3.2,8
+Non-melanoma skin cancer (rare types),2008,Females,Australian Capital Territory,0,,,2
+Non-melanoma skin cancer (rare types),2008,Females,Northern Territory,0,0.0,,0
+Non-melanoma skin cancer (rare types),2008,Females,Australia,48,0.5,2.5,241
+Non-melanoma skin cancer (rare types),2008,Persons,New South Wales,52,0.9,5.0,293
+Non-melanoma skin cancer (rare types),2008,Persons,Victoria,12,0.3,1.6,70
+Non-melanoma skin cancer (rare types),2008,Persons,Queensland,36,1.2,4.9,157
+Non-melanoma skin cancer (rare types),2008,Persons,Western Australia,8,0.5,5.0,81
+Non-melanoma skin cancer (rare types),2008,Persons,South Australia,8,0.5,1.1,17
+Non-melanoma skin cancer (rare types),2008,Persons,Tasmania,2,,3.3,15
+Non-melanoma skin cancer (rare types),2008,Persons,Australian Capital Territory,2,,2.8,6
+Non-melanoma skin cancer (rare types),2008,Persons,Northern Territory,0,,,1
+Non-melanoma skin cancer (rare types),2008,Persons,Australia,123,0.7,3.7,643
+Non-melanoma skin cancer (rare types),2009,Males,New South Wales,35,1.4,7.3,190
+Non-melanoma skin cancer (rare types),2009,Males,Victoria,9,0.5,2.3,47
+Non-melanoma skin cancer (rare types),2009,Males,Queensland,24,1.7,9.4,135
+Non-melanoma skin cancer (rare types),2009,Males,Western Australia,6,0.9,6.0,46
+Non-melanoma skin cancer (rare types),2009,Males,South Australia,7,1.2,2.3,15
+Non-melanoma skin cancer (rare types),2009,Males,Tasmania,3,,4.3,9
+Non-melanoma skin cancer (rare types),2009,Males,Australian Capital Territory,2,,,3
+Non-melanoma skin cancer (rare types),2009,Males,Northern Territory,0,,,1
+Non-melanoma skin cancer (rare types),2009,Males,Australia,84,1.2,5.7,446
+Non-melanoma skin cancer (rare types),2009,Females,New South Wales,22,0.6,3.2,111
+Non-melanoma skin cancer (rare types),2009,Females,Victoria,14,0.6,1.3,32
+Non-melanoma skin cancer (rare types),2009,Females,Queensland,5,0.3,3.0,55
+Non-melanoma skin cancer (rare types),2009,Females,Western Australia,5,0.6,3.3,31
+Non-melanoma skin cancer (rare types),2009,Females,South Australia,5,0.5,1.1,10
+Non-melanoma skin cancer (rare types),2009,Females,Tasmania,0,0.0,1.9,5
+Non-melanoma skin cancer (rare types),2009,Females,Australian Capital Territory,1,,,2
+Non-melanoma skin cancer (rare types),2009,Females,Northern Territory,0,0.0,,0
+Non-melanoma skin cancer (rare types),2009,Females,Australia,52,0.5,2.4,247
+Non-melanoma skin cancer (rare types),2009,Persons,New South Wales,57,1.0,5.0,301
+Non-melanoma skin cancer (rare types),2009,Persons,Victoria,23,0.5,1.7,79
+Non-melanoma skin cancer (rare types),2009,Persons,Queensland,29,0.9,5.8,190
+Non-melanoma skin cancer (rare types),2009,Persons,Western Australia,11,0.7,4.6,77
+Non-melanoma skin cancer (rare types),2009,Persons,South Australia,12,0.8,1.7,25
+Non-melanoma skin cancer (rare types),2009,Persons,Tasmania,3,,2.9,14
+Non-melanoma skin cancer (rare types),2009,Persons,Australian Capital Territory,2,,2.6,5
+Non-melanoma skin cancer (rare types),2009,Persons,Northern Territory,0,,,1
+Non-melanoma skin cancer (rare types),2009,Persons,Australia,136,0.8,3.9,693
+Non-melanoma skin cancer (rare types),2010,Males,New South Wales,34,1.3,6.4,174
+Non-melanoma skin cancer (rare types),2010,Males,Victoria,14,0.8,2.5,49
+Non-melanoma skin cancer (rare types),2010,Males,Queensland,25,1.7,7.7,118
+Non-melanoma skin cancer (rare types),2010,Males,Western Australia,9,1.3,6.9,51
+Non-melanoma skin cancer (rare types),2010,Males,South Australia,4,,3.4,22
+Non-melanoma skin cancer (rare types),2010,Males,Tasmania,1,,5.3,12
+Non-melanoma skin cancer (rare types),2010,Males,Australian Capital Territory,2,,,4
+Non-melanoma skin cancer (rare types),2010,Males,Northern Territory,0,,,1
+Non-melanoma skin cancer (rare types),2010,Males,Australia,88,1.1,5.4,434
+Non-melanoma skin cancer (rare types),2010,Females,New South Wales,18,0.5,3.4,120
+Non-melanoma skin cancer (rare types),2010,Females,Victoria,7,0.2,1.2,33
+Non-melanoma skin cancer (rare types),2010,Females,Queensland,15,0.9,3.4,64
+Non-melanoma skin cancer (rare types),2010,Females,Western Australia,1,,3.1,29
+Non-melanoma skin cancer (rare types),2010,Females,South Australia,2,,0.8,7
+Non-melanoma skin cancer (rare types),2010,Females,Tasmania,2,,3.8,10
+Non-melanoma skin cancer (rare types),2010,Females,Australian Capital Territory,1,,,2
+Non-melanoma skin cancer (rare types),2010,Females,Northern Territory,0,,,0
+Non-melanoma skin cancer (rare types),2010,Females,Australia,48,0.5,2.5,265
+Non-melanoma skin cancer (rare types),2010,Persons,New South Wales,52,0.8,4.7,294
+Non-melanoma skin cancer (rare types),2010,Persons,Victoria,21,0.5,1.8,82
+Non-melanoma skin cancer (rare types),2010,Persons,Queensland,40,1.3,5.4,182
+Non-melanoma skin cancer (rare types),2010,Persons,Western Australia,10,0.6,4.8,80
+Non-melanoma skin cancer (rare types),2010,Persons,South Australia,6,0.4,1.9,29
+Non-melanoma skin cancer (rare types),2010,Persons,Tasmania,3,,4.6,22
+Non-melanoma skin cancer (rare types),2010,Persons,Australian Capital Territory,2,,2.9,6
+Non-melanoma skin cancer (rare types),2010,Persons,Northern Territory,0,,,1
+Non-melanoma skin cancer (rare types),2010,Persons,Australia,136,0.8,3.8,699
+Non-melanoma skin cancer (rare types),2011,Males,New South Wales,37,1.4,6.8,188
+Non-melanoma skin cancer (rare types),2011,Males,Victoria,16,0.9,1.9,38
+Non-melanoma skin cancer (rare types),2011,Males,Queensland,22,1.5,7.6,122
+Non-melanoma skin cancer (rare types),2011,Males,Western Australia,4,,7.1,58
+Non-melanoma skin cancer (rare types),2011,Males,South Australia,5,0.6,4.2,30
+Non-melanoma skin cancer (rare types),2011,Males,Tasmania,3,,4.5,10
+Non-melanoma skin cancer (rare types),2011,Males,Australian Capital Territory,1,,,4
+Non-melanoma skin cancer (rare types),2011,Males,Northern Territory,0,,,1
+Non-melanoma skin cancer (rare types),2011,Males,Australia,89,1.2,5.5,452
+Non-melanoma skin cancer (rare types),2011,Females,New South Wales,22,0.6,3.0,106
+Non-melanoma skin cancer (rare types),2011,Females,Victoria,14,0.5,0.8,23
+Non-melanoma skin cancer (rare types),2011,Females,Queensland,12,0.7,3.1,60
+Non-melanoma skin cancer (rare types),2011,Females,Western Australia,2,,4.3,39
+Non-melanoma skin cancer (rare types),2011,Females,South Australia,2,,0.7,6
+Non-melanoma skin cancer (rare types),2011,Females,Tasmania,0,0.0,,2
+Non-melanoma skin cancer (rare types),2011,Females,Australian Capital Territory,1,,,2
+Non-melanoma skin cancer (rare types),2011,Females,Northern Territory,0,,,0
+Non-melanoma skin cancer (rare types),2011,Females,Australia,52,0.5,2.3,238
+Non-melanoma skin cancer (rare types),2011,Persons,New South Wales,59,0.9,4.6,294
+Non-melanoma skin cancer (rare types),2011,Persons,Victoria,30,0.6,1.3,61
+Non-melanoma skin cancer (rare types),2011,Persons,Queensland,34,1.0,5.2,182
+Non-melanoma skin cancer (rare types),2011,Persons,Western Australia,6,0.4,5.6,97
+Non-melanoma skin cancer (rare types),2011,Persons,South Australia,7,0.4,2.3,36
+Non-melanoma skin cancer (rare types),2011,Persons,Tasmania,3,,2.5,12
+Non-melanoma skin cancer (rare types),2011,Persons,Australian Capital Territory,2,,2.6,6
+Non-melanoma skin cancer (rare types),2011,Persons,Northern Territory,1,,,2
+Non-melanoma skin cancer (rare types),2011,Persons,Australia,141,0.8,3.7,690
+Non-melanoma skin cancer (rare types),2012,Males,New South Wales,41,1.5,7.1,200
+Non-melanoma skin cancer (rare types),2012,Males,Victoria,10,0.5,1.6,36
+Non-melanoma skin cancer (rare types),2012,Males,Queensland,26,1.6,8.2,131
+Non-melanoma skin cancer (rare types),2012,Males,Western Australia,19,2.4,8.7,71
+Non-melanoma skin cancer (rare types),2012,Males,South Australia,5,0.8,3.4,24
+Non-melanoma skin cancer (rare types),2012,Males,Tasmania,1,,4.5,11
+Non-melanoma skin cancer (rare types),2012,Males,Australian Capital Territory,1,,4.7,5
+Non-melanoma skin cancer (rare types),2012,Males,Northern Territory,0,,,1
+Non-melanoma skin cancer (rare types),2012,Males,Australia,103,1.2,5.6,478
+Non-melanoma skin cancer (rare types),2012,Females,New South Wales,28,0.7,3.1,116
+Non-melanoma skin cancer (rare types),2012,Females,Victoria,7,0.2,1.1,28
+Non-melanoma skin cancer (rare types),2012,Females,Queensland,11,0.5,3.5,71
+Non-melanoma skin cancer (rare types),2012,Females,Western Australia,3,,4.7,47
+Non-melanoma skin cancer (rare types),2012,Females,South Australia,1,,1.2,13
+Non-melanoma skin cancer (rare types),2012,Females,Tasmania,1,,2.8,8
+Non-melanoma skin cancer (rare types),2012,Females,Australian Capital Territory,1,,,2
+Non-melanoma skin cancer (rare types),2012,Females,Northern Territory,0,,,1
+Non-melanoma skin cancer (rare types),2012,Females,Australia,51,0.5,2.6,286
+Non-melanoma skin cancer (rare types),2012,Persons,New South Wales,69,1.1,4.9,316
+Non-melanoma skin cancer (rare types),2012,Persons,Victoria,17,0.3,1.3,64
+Non-melanoma skin cancer (rare types),2012,Persons,Queensland,37,1.0,5.6,202
+Non-melanoma skin cancer (rare types),2012,Persons,Western Australia,22,1.3,6.4,118
+Non-melanoma skin cancer (rare types),2012,Persons,South Australia,6,0.4,2.2,37
+Non-melanoma skin cancer (rare types),2012,Persons,Tasmania,2,,3.7,19
+Non-melanoma skin cancer (rare types),2012,Persons,Australian Capital Territory,2,,2.8,7
+Non-melanoma skin cancer (rare types),2012,Persons,Northern Territory,1,,,2
+Non-melanoma skin cancer (rare types),2012,Persons,Australia,154,0.8,4.0,764
+Non-melanoma skin cancer (rare types),2013,Males,New South Wales,44,1.6,8.1,240
+Non-melanoma skin cancer (rare types),2013,Males,Victoria,19,0.8,2.6,57
+Non-melanoma skin cancer (rare types),2013,Males,Queensland,38,2.2,8.8,148
+Non-melanoma skin cancer (rare types),2013,Males,Western Australia,11,1.4,10.8,87
+Non-melanoma skin cancer (rare types),2013,Males,South Australia,6,0.8,3.1,23
+Non-melanoma skin cancer (rare types),2013,Males,Tasmania,1,,4.9,12
+Non-melanoma skin cancer (rare types),2013,Males,Australian Capital Territory,1,,4.9,5
+Non-melanoma skin cancer (rare types),2013,Males,Northern Territory,1,,,1
+Non-melanoma skin cancer (rare types),2013,Males,Australia,121,1.4,6.5,575
+Non-melanoma skin cancer (rare types),2013,Females,New South Wales,25,0.7,3.1,116
+Non-melanoma skin cancer (rare types),2013,Females,Victoria,6,0.2,1.0,29
+Non-melanoma skin cancer (rare types),2013,Females,Queensland,20,1.0,3.6,72
+Non-melanoma skin cancer (rare types),2013,Females,Western Australia,10,1.0,4.3,44
+Non-melanoma skin cancer (rare types),2013,Females,South Australia,3,,0.9,9
+Non-melanoma skin cancer (rare types),2013,Females,Tasmania,3,,1.8,5
+Non-melanoma skin cancer (rare types),2013,Females,Australian Capital Territory,1,,,2
+Non-melanoma skin cancer (rare types),2013,Females,Northern Territory,0,,,0
+Non-melanoma skin cancer (rare types),2013,Females,Australia,69,0.6,2.5,275
+Non-melanoma skin cancer (rare types),2013,Persons,New South Wales,69,1.1,5.3,356
+Non-melanoma skin cancer (rare types),2013,Persons,Victoria,25,0.5,1.7,86
+Non-melanoma skin cancer (rare types),2013,Persons,Queensland,58,1.6,5.9,220
+Non-melanoma skin cancer (rare types),2013,Persons,Western Australia,21,1.2,7.1,131
+Non-melanoma skin cancer (rare types),2013,Persons,South Australia,9,0.6,1.9,32
+Non-melanoma skin cancer (rare types),2013,Persons,Tasmania,4,,3.2,17
+Non-melanoma skin cancer (rare types),2013,Persons,Australian Capital Territory,2,,2.7,7
+Non-melanoma skin cancer (rare types),2013,Persons,Northern Territory,1,,,2
+Non-melanoma skin cancer (rare types),2013,Persons,Australia,190,1.0,4.3,850
+Non-melanoma skin cancer (rare types),2014,Males,New South Wales,42,1.5,7.4,224
+Non-melanoma skin cancer (rare types),2014,Males,Victoria,22,1.0,3.6,83
+Non-melanoma skin cancer (rare types),2014,Males,Queensland,40,2.5,7.5,131
+Non-melanoma skin cancer (rare types),2014,Males,Western Australia,14,1.6,8.5,77
+Non-melanoma skin cancer (rare types),2014,Males,South Australia,7,1.0,3.6,27
+Non-melanoma skin cancer (rare types),2014,Males,Tasmania,2,,5.0,11
+Non-melanoma skin cancer (rare types),2014,Males,Australian Capital Territory,1,,4.8,5
+Non-melanoma skin cancer (rare types),2014,Males,Northern Territory,1,,,2
+Non-melanoma skin cancer (rare types),2014,Males,Australia,129,1.5,6.1,561
+Non-melanoma skin cancer (rare types),2014,Females,New South Wales,26,0.6,3.1,118
+Non-melanoma skin cancer (rare types),2014,Females,Victoria,5,0.2,1.3,38
+Non-melanoma skin cancer (rare types),2014,Females,Queensland,13,0.6,3.6,74
+Non-melanoma skin cancer (rare types),2014,Females,Western Australia,6,0.5,3.9,43
+Non-melanoma skin cancer (rare types),2014,Females,South Australia,1,,1.7,16
+Non-melanoma skin cancer (rare types),2014,Females,Tasmania,1,,1.7,5
+Non-melanoma skin cancer (rare types),2014,Females,Australian Capital Territory,1,,,1
+Non-melanoma skin cancer (rare types),2014,Females,Northern Territory,0,,,0
+Non-melanoma skin cancer (rare types),2014,Females,Australia,53,0.4,2.6,295
+Non-melanoma skin cancer (rare types),2014,Persons,New South Wales,68,1.0,5.0,342
+Non-melanoma skin cancer (rare types),2014,Persons,Victoria,27,0.5,2.3,121
+Non-melanoma skin cancer (rare types),2014,Persons,Queensland,53,1.5,5.3,205
+Non-melanoma skin cancer (rare types),2014,Persons,Western Australia,20,1.0,6.1,120
+Non-melanoma skin cancer (rare types),2014,Persons,South Australia,8,0.4,2.5,43
+Non-melanoma skin cancer (rare types),2014,Persons,Tasmania,3,,3.1,16
+Non-melanoma skin cancer (rare types),2014,Persons,Australian Capital Territory,2,,2.6,7
+Non-melanoma skin cancer (rare types),2014,Persons,Northern Territory,1,,,2
+Non-melanoma skin cancer (rare types),2014,Persons,Australia,182,0.9,4.2,856
+Non-melanoma skin cancer (rare types),2015,Males,New South Wales,38,1.3,8.2,251
+Non-melanoma skin cancer (rare types),2015,Males,Victoria,26,1.1,3.3,79
+Non-melanoma skin cancer (rare types),2015,Males,Queensland,25,1.4,7.5,138
+Non-melanoma skin cancer (rare types),2015,Males,Western Australia,10,1.2,9.2,81
+Non-melanoma skin cancer (rare types),2015,Males,South Australia,6,0.8,3.9,30
+Non-melanoma skin cancer (rare types),2015,Males,Tasmania,3,,4.3,10
+Non-melanoma skin cancer (rare types),2015,Males,Australian Capital Territory,1,,4.6,5
+Non-melanoma skin cancer (rare types),2015,Males,Northern Territory,1,,,2
+Non-melanoma skin cancer (rare types),2015,Males,Australia,109,1.2,6.4,598
+Non-melanoma skin cancer (rare types),2015,Females,New South Wales,22,0.5,3.5,136
+Non-melanoma skin cancer (rare types),2015,Females,Victoria,14,0.5,1.3,39
+Non-melanoma skin cancer (rare types),2015,Females,Queensland,6,0.3,3.8,82
+Non-melanoma skin cancer (rare types),2015,Females,Western Australia,6,0.5,4.0,44
+Non-melanoma skin cancer (rare types),2015,Females,South Australia,2,,1.3,15
+Non-melanoma skin cancer (rare types),2015,Females,Tasmania,1,,4.8,14
+Non-melanoma skin cancer (rare types),2015,Females,Australian Capital Territory,0,,,1
+Non-melanoma skin cancer (rare types),2015,Females,Northern Territory,0,,,0
+Non-melanoma skin cancer (rare types),2015,Females,Australia,52,0.4,2.8,332
+Non-melanoma skin cancer (rare types),2015,Persons,New South Wales,60,0.9,5.6,387
+Non-melanoma skin cancer (rare types),2015,Persons,Victoria,40,0.7,2.2,118
+Non-melanoma skin cancer (rare types),2015,Persons,Queensland,31,0.8,5.5,220
+Non-melanoma skin cancer (rare types),2015,Persons,Western Australia,16,0.8,6.4,125
+Non-melanoma skin cancer (rare types),2015,Persons,South Australia,8,0.4,2.5,45
+Non-melanoma skin cancer (rare types),2015,Persons,Tasmania,4,,4.5,24
+Non-melanoma skin cancer (rare types),2015,Persons,Australian Capital Territory,1,,2.5,7
+Non-melanoma skin cancer (rare types),2015,Persons,Northern Territory,1,,,2
+Non-melanoma skin cancer (rare types),2015,Persons,Australia,161,0.8,4.5,930
+Non-melanoma skin cancer (rare types),2016,Males,New South Wales,42,1.4,8.3,260
+Non-melanoma skin cancer (rare types),2016,Males,Victoria,15,0.6,3.8,92
+Non-melanoma skin cancer (rare types),2016,Males,Queensland,28,1.6,8.4,157
+Non-melanoma skin cancer (rare types),2016,Males,Western Australia,13,1.7,7.8,71
+Non-melanoma skin cancer (rare types),2016,Males,South Australia,8,1.0,4.8,38
+Non-melanoma skin cancer (rare types),2016,Males,Tasmania,0,0.0,4.5,11
+Non-melanoma skin cancer (rare types),2016,Males,Australian Capital Territory,1,,4.4,6
+Non-melanoma skin cancer (rare types),2016,Males,Northern Territory,0,,,2
+Non-melanoma skin cancer (rare types),2016,Males,Australia,107,1.2,6.7,638
+Non-melanoma skin cancer (rare types),2016,Females,New South Wales,22,0.5,3.6,144
+Non-melanoma skin cancer (rare types),2016,Females,Victoria,15,0.5,1.6,49
+Non-melanoma skin cancer (rare types),2016,Females,Queensland,15,0.7,3.4,76
+Non-melanoma skin cancer (rare types),2016,Females,Western Australia,6,0.5,4.9,55
+Non-melanoma skin cancer (rare types),2016,Females,South Australia,2,,1.2,13
+Non-melanoma skin cancer (rare types),2016,Females,Tasmania,1,,,3
+Non-melanoma skin cancer (rare types),2016,Females,Australian Capital Territory,1,,,2
+Non-melanoma skin cancer (rare types),2016,Females,Northern Territory,0,,,0
+Non-melanoma skin cancer (rare types),2016,Females,Australia,62,0.5,2.9,344
+Non-melanoma skin cancer (rare types),2016,Persons,New South Wales,64,0.9,5.7,404
+Non-melanoma skin cancer (rare types),2016,Persons,Victoria,30,0.5,2.5,141
+Non-melanoma skin cancer (rare types),2016,Persons,Queensland,43,1.1,5.7,233
+Non-melanoma skin cancer (rare types),2016,Persons,Western Australia,19,1.0,6.2,126
+Non-melanoma skin cancer (rare types),2016,Persons,South Australia,10,0.6,2.8,51
+Non-melanoma skin cancer (rare types),2016,Persons,Tasmania,1,,2.6,14
+Non-melanoma skin cancer (rare types),2016,Persons,Australian Capital Territory,2,,2.6,7
+Non-melanoma skin cancer (rare types),2016,Persons,Northern Territory,1,,,3
+Non-melanoma skin cancer (rare types),2016,Persons,Australia,169,0.8,4.6,982
+Non-melanoma skin cancer (rare types),2017,Males,New South Wales,46,1.5,9.2,300
+Non-melanoma skin cancer (rare types),2017,Males,Victoria,19,0.8,6.1,151
+Non-melanoma skin cancer (rare types),2017,Males,Queensland,26,1.5,8.7,171
+Non-melanoma skin cancer (rare types),2017,Males,Western Australia,6,0.7,7.8,73
+Non-melanoma skin cancer (rare types),2017,Males,South Australia,7,0.9,3.5,29
+Non-melanoma skin cancer (rare types),2017,Males,Tasmania,3,,4.5,12
+Non-melanoma skin cancer (rare types),2017,Males,Australian Capital Territory,1,,4.3,6
+Non-melanoma skin cancer (rare types),2017,Males,Northern Territory,0,,,3
+Non-melanoma skin cancer (rare types),2017,Males,Australia,109,1.2,7.5,744
+Non-melanoma skin cancer (rare types),2017,Females,New South Wales,27,0.6,3.3,133
+Non-melanoma skin cancer (rare types),2017,Females,Victoria,11,0.3,2.4,76
+Non-melanoma skin cancer (rare types),2017,Females,Queensland,18,0.8,4.3,98
+Non-melanoma skin cancer (rare types),2017,Females,Western Australia,5,0.4,4.1,49
+Non-melanoma skin cancer (rare types),2017,Females,South Australia,5,0.4,2.0,20
+Non-melanoma skin cancer (rare types),2017,Females,Tasmania,1,,3.0,9
+Non-melanoma skin cancer (rare types),2017,Females,Australian Capital Territory,1,,,1
+Non-melanoma skin cancer (rare types),2017,Females,Northern Territory,0,,,0
+Non-melanoma skin cancer (rare types),2017,Females,Australia,68,0.5,3.2,387
+Non-melanoma skin cancer (rare types),2017,Persons,New South Wales,73,1.0,5.9,433
+Non-melanoma skin cancer (rare types),2017,Persons,Victoria,30,0.5,4.1,227
+Non-melanoma skin cancer (rare types),2017,Persons,Queensland,44,1.1,6.3,269
+Non-melanoma skin cancer (rare types),2017,Persons,Western Australia,11,0.5,5.8,122
+Non-melanoma skin cancer (rare types),2017,Persons,South Australia,12,0.6,2.7,49
+Non-melanoma skin cancer (rare types),2017,Persons,Tasmania,4,,3.8,21
+Non-melanoma skin cancer (rare types),2017,Persons,Australian Capital Territory,2,,2.5,7
+Non-melanoma skin cancer (rare types),2017,Persons,Northern Territory,1,,,3
+Non-melanoma skin cancer (rare types),2017,Persons,Australia,177,0.8,5.1,1131
+Non-melanoma skin cancer (rare types),2018,Males,New South Wales,43,1.3,8.2,272
+Non-melanoma skin cancer (rare types),2018,Males,Victoria,25,1.0,3.7,95
+Non-melanoma skin cancer (rare types),2018,Males,Queensland,24,1.3,7.4,148
+Non-melanoma skin cancer (rare types),2018,Males,Western Australia,10,1.1,6.6,63
+Non-melanoma skin cancer (rare types),2018,Males,South Australia,5,0.6,3.7,31
+Non-melanoma skin cancer (rare types),2018,Males,Tasmania,2,,6.8,17
+Non-melanoma skin cancer (rare types),2018,Males,Australian Capital Territory,1,,3.5,5
+Non-melanoma skin cancer (rare types),2018,Males,Northern Territory,0,,,3
+Non-melanoma skin cancer (rare types),2018,Males,Australia,112,1.1,6.2,630
+Non-melanoma skin cancer (rare types),2018,Females,New South Wales,22,0.5,4.2,175
+Non-melanoma skin cancer (rare types),2018,Females,Victoria,15,0.4,1.5,50
+Non-melanoma skin cancer (rare types),2018,Females,Queensland,13,0.5,3.1,74
+Non-melanoma skin cancer (rare types),2018,Females,Western Australia,4,,3.4,40
+Non-melanoma skin cancer (rare types),2018,Females,South Australia,5,0.4,1.6,16
+Non-melanoma skin cancer (rare types),2018,Females,Tasmania,1,,2.1,7
+Non-melanoma skin cancer (rare types),2018,Females,Australian Capital Territory,0,,,2
+Non-melanoma skin cancer (rare types),2018,Females,Northern Territory,0,,,1
+Non-melanoma skin cancer (rare types),2018,Females,Australia,60,0.4,2.9,367
+Non-melanoma skin cancer (rare types),2018,Persons,New South Wales,65,0.9,5.9,447
+Non-melanoma skin cancer (rare types),2018,Persons,Victoria,40,0.7,2.5,145
+Non-melanoma skin cancer (rare types),2018,Persons,Queensland,37,0.9,5.1,222
+Non-melanoma skin cancer (rare types),2018,Persons,Western Australia,14,0.7,4.7,103
+Non-melanoma skin cancer (rare types),2018,Persons,South Australia,10,0.5,2.6,47
+Non-melanoma skin cancer (rare types),2018,Persons,Tasmania,3,,4.1,24
+Non-melanoma skin cancer (rare types),2018,Persons,Australian Capital Territory,2,,2.3,7
+Non-melanoma skin cancer (rare types),2018,Persons,Northern Territory,1,,,3
+Non-melanoma skin cancer (rare types),2018,Persons,Australia,172,0.8,4.4,997
+Non-melanoma skin cancer (rare types),2019,Males,New South Wales,54,1.6,9.7,336
+Non-melanoma skin cancer (rare types),2019,Males,Victoria,20,0.8,6.0,157
+Non-melanoma skin cancer (rare types),2019,Males,Queensland,38,2.0,10.3,210
+Non-melanoma skin cancer (rare types),2019,Males,Western Australia,6,0.6,8.4,86
+Non-melanoma skin cancer (rare types),2019,Males,South Australia,3,,3.7,32
+Non-melanoma skin cancer (rare types),2019,Males,Tasmania,3,,5.9,16
+Non-melanoma skin cancer (rare types),2019,Males,Australian Capital Territory,2,,3.9,5
+Non-melanoma skin cancer (rare types),2019,Males,Northern Territory,0,,,2
+Non-melanoma skin cancer (rare types),2019,Males,Australia,127,1.3,8.1,845
+Non-melanoma skin cancer (rare types),2019,Females,New South Wales,23,0.5,3.5,147
+Non-melanoma skin cancer (rare types),2019,Females,Victoria,12,0.4,2.6,87
+Non-melanoma skin cancer (rare types),2019,Females,Queensland,10,0.4,4.4,109
+Non-melanoma skin cancer (rare types),2019,Females,Western Australia,7,0.5,3.1,40
+Non-melanoma skin cancer (rare types),2019,Females,South Australia,3,,1.2,13
+Non-melanoma skin cancer (rare types),2019,Females,Tasmania,0,0.0,2.3,7
+Non-melanoma skin cancer (rare types),2019,Females,Australian Capital Territory,0,,,2
+Non-melanoma skin cancer (rare types),2019,Females,Northern Territory,0,,,1
+Non-melanoma skin cancer (rare types),2019,Females,Australia,56,0.4,3.2,406
+Non-melanoma skin cancer (rare types),2019,Persons,New South Wales,77,1.0,6.4,483
+Non-melanoma skin cancer (rare types),2019,Persons,Victoria,32,0.5,4.1,244
+Non-melanoma skin cancer (rare types),2019,Persons,Queensland,48,1.1,7.1,319
+Non-melanoma skin cancer (rare types),2019,Persons,Western Australia,13,0.6,5.5,126
+Non-melanoma skin cancer (rare types),2019,Persons,South Australia,6,0.3,2.3,45
+Non-melanoma skin cancer (rare types),2019,Persons,Tasmania,3,,3.9,23
+Non-melanoma skin cancer (rare types),2019,Persons,Australian Capital Territory,2,,2.5,8
+Non-melanoma skin cancer (rare types),2019,Persons,Northern Territory,1,,,3
+Non-melanoma skin cancer (rare types),2019,Persons,Australia,183,0.8,5.4,1251
+Non-melanoma skin cancer (rare types),2020,Males,New South Wales,41,1.2,11.2,397
+Non-melanoma skin cancer (rare types),2020,Males,Victoria,30,1.1,6.2,167
+Non-melanoma skin cancer (rare types),2020,Males,Queensland,28,1.3,9.9,214
+Non-melanoma skin cancer (rare types),2020,Males,Western Australia,11,1.1,8.1,86
+Non-melanoma skin cancer (rare types),2020,Males,South Australia,11,1.3,5.7,50
+Non-melanoma skin cancer (rare types),2020,Males,Tasmania,6,2.2,3.4,9
+Non-melanoma skin cancer (rare types),2020,Males,Australian Capital Territory,2,,3.3,5
+Non-melanoma skin cancer (rare types),2020,Males,Northern Territory,0,,,2
+Non-melanoma skin cancer (rare types),2020,Males,Australia,128,1.2,8.6,929
+Non-melanoma skin cancer (rare types),2020,Females,New South Wales,34,0.7,4.2,178
+Non-melanoma skin cancer (rare types),2020,Females,Victoria,23,0.6,2.1,69
+Non-melanoma skin cancer (rare types),2020,Females,Queensland,20,0.8,4.1,104
+Non-melanoma skin cancer (rare types),2020,Females,Western Australia,4,,2.3,30
+Non-melanoma skin cancer (rare types),2020,Females,South Australia,2,,1.5,18
+Non-melanoma skin cancer (rare types),2020,Females,Tasmania,5,1.4,3.4,11
+Non-melanoma skin cancer (rare types),2020,Females,Australian Capital Territory,1,,,2
+Non-melanoma skin cancer (rare types),2020,Females,Northern Territory,0,,,1
+Non-melanoma skin cancer (rare types),2020,Females,Australia,89,0.6,3.1,410
+Non-melanoma skin cancer (rare types),2020,Persons,New South Wales,75,0.9,7.3,575
+Non-melanoma skin cancer (rare types),2020,Persons,Victoria,53,0.8,3.8,236
+Non-melanoma skin cancer (rare types),2020,Persons,Queensland,48,1.1,6.8,318
+Non-melanoma skin cancer (rare types),2020,Persons,Western Australia,15,0.6,4.9,116
+Non-melanoma skin cancer (rare types),2020,Persons,South Australia,13,0.6,3.4,68
+Non-melanoma skin cancer (rare types),2020,Persons,Tasmania,11,1.8,3.2,20
+Non-melanoma skin cancer (rare types),2020,Persons,Australian Capital Territory,2,,2.2,7
+Non-melanoma skin cancer (rare types),2020,Persons,Northern Territory,1,,,2
+Non-melanoma skin cancer (rare types),2020,Persons,Australia,217,0.9,5.6,1339
