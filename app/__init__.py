@@ -9,6 +9,8 @@ from app.config import config
 from app.services.database import DatabaseService
 from app.services.data import DataService
 from app.services.visualization import VisualizationService
+from app.services.cache import CacheService
+from app.services.analytics import AnalyticsService
 from app.routes.api import create_api_routes
 from app.routes.web import create_web_routes
 
@@ -45,9 +47,13 @@ def create_app(config_name: str = None) -> Flask:
     # Initialize services
     try:
         app_config = config[config_name]()
+        
+        # Core services
+        cache_service = CacheService(app_config.CACHE_DEFAULT_TIMEOUT)
         db_service = DatabaseService(app_config)
-        data_service = DataService(db_service, app_config)
+        data_service = DataService(db_service, app_config, cache_service)
         viz_service = VisualizationService()
+        analytics_service = AnalyticsService(data_service, cache_service)
         
         # Test database connection on startup
         if not db_service.test_connection():
@@ -56,7 +62,7 @@ def create_app(config_name: str = None) -> Flask:
             app.logger.info("Database connection successful")
         
         # Register blueprints
-        api_bp = create_api_routes(data_service, viz_service)
+        api_bp = create_api_routes(data_service, viz_service, analytics_service)
         web_bp = create_web_routes(data_service, viz_service)
         
         app.register_blueprint(api_bp)
@@ -66,6 +72,8 @@ def create_app(config_name: str = None) -> Flask:
         app.db_service = db_service
         app.data_service = data_service
         app.viz_service = viz_service
+        app.cache_service = cache_service
+        app.analytics_service = analytics_service
         
         app.logger.info(f"Application created successfully with config: {config_name}")
         

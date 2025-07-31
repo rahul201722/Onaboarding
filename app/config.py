@@ -20,8 +20,24 @@ class Config:
     SECRET_KEY = os.getenv('SECRET_KEY', 'dev-secret-key-change-in-production')
     DEBUG = os.getenv('DEBUG', 'False').lower() == 'true'
     
-    # Shapefile path
+    # Server configuration
+    HOST = os.getenv('HOST', '0.0.0.0')
+    PORT = int(os.getenv('PORT', 5000))
+    
+    # Logging configuration
+    LOG_LEVEL = os.getenv('LOG_LEVEL', 'INFO')
+    
+    # Cache configuration
+    CACHE_TYPE = os.getenv('CACHE_TYPE', 'simple')
+    CACHE_DEFAULT_TIMEOUT = int(os.getenv('CACHE_DEFAULT_TIMEOUT', 300))
+    
+    # Security configuration
+    SESSION_COOKIE_SECURE = os.getenv('SESSION_COOKIE_SECURE', 'False').lower() == 'true'
+    SESSION_COOKIE_HTTPONLY = os.getenv('SESSION_COOKIE_HTTPONLY', 'True').lower() == 'true'
+    
+    # File paths
     SHAPEFILE_PATH = os.path.join('data', 'states_provinces', 'shapefile.shp')
+    DATA_PATH = os.path.join('data', 'incidence_mortality_state.csv')
     
     @property
     def DATABASE_URL(self):

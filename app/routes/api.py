@@ -4,11 +4,14 @@ API routes for the cancer data visualization application.
 from flask import Blueprint, jsonify, request
 from app.services.data import DataService
 from app.services.visualization import VisualizationService
+from app.services.analytics import AnalyticsService
 import logging
 
 logger = logging.getLogger(__name__)
 
-def create_api_routes(data_service: DataService, viz_service: VisualizationService) -> Blueprint:
+def create_api_routes(data_service: DataService, 
+                     viz_service: VisualizationService,
+                     analytics_service: AnalyticsService) -> Blueprint:
     """Create and configure API routes."""
     
     api_bp = Blueprint('api', __name__, url_prefix='/api')
@@ -171,6 +174,147 @@ def create_api_routes(data_service: DataService, viz_service: VisualizationServi
             
         except Exception as e:
             logger.error(f"Error in get_state_summary: {e}")
+            return jsonify({
+                'success': False,
+                'error': str(e)
+            }), 500
+    
+    @api_bp.route('/analytics/trends', methods=['GET'])
+    def get_trends():
+        """Get trend analysis for cancer data."""
+        try:
+            state = request.args.get('state')
+            cancer_type = request.args.get('cancer_type')
+            metric = request.args.get('metric', 'mortality_rate')
+            
+            trends = analytics_service.calculate_trends(
+                state=state,
+                cancer_type=cancer_type,
+                metric=metric
+            )
+            
+            return jsonify({
+                'success': True,
+                'data': trends,
+                'filters': {
+                    'state': state,
+                    'cancer_type': cancer_type,
+                    'metric': metric
+                }
+            })
+            
+        except Exception as e:
+            logger.error(f"Error in get_trends: {e}")
+            return jsonify({
+                'success': False,
+                'error': str(e)
+            }), 500
+    
+    @api_bp.route('/analytics/top-states', methods=['GET'])
+    def get_top_states():
+        """Get top states by specified metric."""
+        try:
+            metric = request.args.get('metric', 'mortality_rate')
+            cancer_type = request.args.get('cancer_type')
+            year = request.args.get('year', type=int)
+            limit = request.args.get('limit', 10, type=int)
+            
+            top_states = analytics_service.get_top_states(
+                metric=metric,
+                cancer_type=cancer_type,
+                year=year,
+                limit=limit
+            )
+            
+            return jsonify({
+                'success': True,
+                'data': top_states,
+                'count': len(top_states),
+                'filters': {
+                    'metric': metric,
+                    'cancer_type': cancer_type,
+                    'year': year,
+                    'limit': limit
+                }
+            })
+            
+        except Exception as e:
+            logger.error(f"Error in get_top_states: {e}")
+            return jsonify({
+                'success': False,
+                'error': str(e)
+            }), 500
+    
+    @api_bp.route('/analytics/compare-states', methods=['POST'])
+    def compare_states():
+        """Compare multiple states."""
+        try:
+            data = request.get_json()
+            states = data.get('states', [])
+            metric = data.get('metric', 'mortality_rate')
+            cancer_type = data.get('cancer_type')
+            
+            if not states:
+                return jsonify({
+                    'success': False,
+                    'error': 'No states provided for comparison'
+                }), 400
+            
+            comparison = analytics_service.compare_states(
+                states=states,
+                metric=metric,
+                cancer_type=cancer_type
+            )
+            
+            return jsonify({
+                'success': True,
+                'data': comparison
+            })
+            
+        except Exception as e:
+            logger.error(f"Error in compare_states: {e}")
+            return jsonify({
+                'success': False,
+                'error': str(e)
+            }), 500
+    
+    @api_bp.route('/analytics/outliers', methods=['GET'])
+    def get_outliers():
+        """Get outliers in the data."""
+        try:
+            metric = request.args.get('metric', 'mortality_rate')
+            threshold = request.args.get('threshold', 2.0, type=float)
+            
+            outliers = analytics_service.get_outliers(
+                metric=metric,
+                threshold=threshold
+            )
+            
+            return jsonify({
+                'success': True,
+                'data': outliers
+            })
+            
+        except Exception as e:
+            logger.error(f"Error in get_outliers: {e}")
+            return jsonify({
+                'success': False,
+                'error': str(e)
+            }), 500
+    
+    @api_bp.route('/analytics/correlations', methods=['GET'])
+    def get_correlations():
+        """Get correlations between metrics."""
+        try:
+            correlations = analytics_service.get_correlations()
+            
+            return jsonify({
+                'success': True,
+                'data': correlations
+            })
+            
+        except Exception as e:
+            logger.error(f"Error in get_correlations: {e}")
             return jsonify({
                 'success': False,
                 'error': str(e)

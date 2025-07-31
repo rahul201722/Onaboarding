@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytics Dashboard - Cancer Data</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .analytics-card {
+            transition: transform 0.2s ease-in-out;
+        }
+        .analytics-card:hover {
+            transform: translateY(-5px);
+        }
+        .trend-up {
+            color: #dc3545;
+        }
+        .trend-down {
+            color: #28a745;
+        }
+        .trend-stable {
+            color: #6c757d;
+        }
+        .outlier-badge {
+            background-color: #ff6b6b;
+            color: white;
+        }
+        .correlation-strong {
+            background-color: #28a745;
+        }
+        .correlation-moderate {
+            background-color: #ffc107;
+        }
+        .correlation-weak {
+            background-color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <i class="fas fa-chart-area me-2"></i>
+                Analytics Dashboard
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Main Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/analytics">Analytics</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-4">
+        <!-- Header -->
+        <div class="row mb-4">
+            <div class="col">
+                <h1 class="display-6">Advanced Analytics</h1>
+                <p class="lead text-muted">Deep insights into Australian cancer data trends and patterns</p>
+            </div>
+        </div>
+
+        <!-- Quick Insights Cards -->
+        <div class="row mb-4">
+            <div class="col-md-3">
+                <div class="card analytics-card border-primary h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-trending-up fa-2x text-primary mb-2"></i>
+                        <h5 class="card-title">Trend Analysis</h5>
+                        <p class="card-text small">Identify increasing, decreasing, and stable trends</p>
+                        <button class="btn btn-primary btn-sm" onclick="loadTrendAnalysis()">
+                            <i class="fas fa-search me-1"></i>Analyze
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card analytics-card border-warning h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-exclamation-triangle fa-2x text-warning mb-2"></i>
+                        <h5 class="card-title">Outlier Detection</h5>
+                        <p class="card-text small">Find unusual data points and anomalies</p>
+                        <button class="btn btn-warning btn-sm" onclick="loadOutlierAnalysis()">
+                            <i class="fas fa-search me-1"></i>Detect
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card analytics-card border-success h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-link fa-2x text-success mb-2"></i>
+                        <h5 class="card-title">Correlations</h5>
+                        <p class="card-text small">Discover relationships between metrics</p>
+                        <button class="btn btn-success btn-sm" onclick="loadCorrelationAnalysis()">
+                            <i class="fas fa-search me-1"></i>Explore
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card analytics-card border-info h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-medal fa-2x text-info mb-2"></i>
+                        <h5 class="card-title">Top Rankings</h5>
+                        <p class="card-text small">Highest and lowest performing states</p>
+                        <button class="btn btn-info btn-sm" onclick="loadTopStatesAnalysis()">
+                            <i class="fas fa-search me-1"></i>Rank
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Analytics Content -->
+        <div class="row">
+            <!-- Trend Analysis -->
+            <div class="col-12 mb-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title mb-0">
+                            <i class="fas fa-trending-up me-2"></i>
+                            Trend Analysis
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row mb-3">
+                            <div class="col-md-3">
+                                <select class="form-select" id="trendState">
+                                    <option value="">All States</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3">
+                                <select class="form-select" id="trendCancerType">
+                                    <option value="">All Cancer Types</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3">
+                                <select class="form-select" id="trendMetric">
+                                    <option value="mortality_rate">Mortality Rate</option>
+                                    <option value="incidence_rate">Incidence Rate</option>
+                                    <option value="mortality_count">Mortality Count</option>
+                                    <option value="incidence_count">Incidence Count</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3">
+                                <button class="btn btn-primary w-100" onclick="loadTrendAnalysis()">
+                                    <i class="fas fa-chart-line me-1"></i>Analyze Trend
+                                </button>
+                            </div>
+                        </div>
+                        <div id="trendResults"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Top States Analysis -->
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title mb-0">
+                            <i class="fas fa-medal me-2"></i>
+                            Top States Ranking
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <div id="topStatesResults"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Outliers Analysis -->
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title mb-0">
+                            <i class="fas fa-exclamation-triangle me-2"></i>
+                            Outlier Detection
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <div id="outlierResults"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Correlation Analysis -->
+            <div class="col-12 mb-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title mb-0">
+                            <i class="fas fa-link me-2"></i>
+                            Correlation Matrix
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        <div id="correlationResults"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light text-center py-3 mt-5">
+        <div class="container">
+            <p class="mb-0">Advanced Analytics Dashboard &copy; 2025</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Initialize dashboard
+        document.addEventListener('DOMContentLoaded', function() {
+            loadDropdownData();
+            loadInitialAnalytics();
+        });
+
+        // Load dropdown data
+        async function loadDropdownData() {
+            try {
+                // Load states
+                const statesResponse = await fetch('/api/states');
+                const statesData = await statesResponse.json();
+                if (statesData.success) {
+                    const stateSelect = document.getElementById('trendState');
+                    statesData.data.forEach(state => {
+                        const option = document.createElement('option');
+                        option.value = state;
+                        option.textContent = state;
+                        stateSelect.appendChild(option);
+                    });
+                }
+
+                // Load cancer types
+                const typesResponse = await fetch('/api/cancer-types');
+                const typesData = await typesResponse.json();
+                if (typesData.success) {
+                    const typeSelect = document.getElementById('trendCancerType');
+                    typesData.data.forEach(type => {
+                        const option = document.createElement('option');
+                        option.value = type;
+                        option.textContent = type;
+                        typeSelect.appendChild(option);
+                    });
+                }
+            } catch (error) {
+                console.error('Error loading dropdown data:', error);
+            }
+        }
+
+        // Load initial analytics
+        function loadInitialAnalytics() {
+            loadTopStatesAnalysis();
+            loadOutlierAnalysis();
+            loadCorrelationAnalysis();
+        }
+
+        // Trend Analysis
+        async function loadTrendAnalysis() {
+            const state = document.getElementById('trendState').value;
+            const cancerType = document.getElementById('trendCancerType').value;
+            const metric = document.getElementById('trendMetric').value;
+            
+            const container = document.getElementById('trendResults');
+            container.innerHTML = '<div class="text-center"><i class="fas fa-spinner fa-spin"></i> Analyzing trends...</div>';
+
+            try {
+                const params = new URLSearchParams();
+                if (state) params.append('state', state);
+                if (cancerType) params.append('cancer_type', cancerType);
+                if (metric) params.append('metric', metric);
+
+                const response = await fetch(`/api/analytics/trends?${params.toString()}`);
+                const data = await response.json();
+
+                if (data.success) {
+                    displayTrendResults(data.data, data.filters);
+                } else {
+                    container.innerHTML = `<div class="alert alert-danger">Error: ${data.error}</div>`;
+                }
+            } catch (error) {
+                container.innerHTML = `<div class="alert alert-danger">Error loading trend analysis: ${error.message}</div>`;
+            }
+        }
+
+        // Display trend results
+        function displayTrendResults(trends, filters) {
+            const container = document.getElementById('trendResults');
+            
+            if (trends.error) {
+                container.innerHTML = `<div class="alert alert-warning">${trends.error}</div>`;
+                return;
+            }
+
+            const trendClass = trends.trend_direction === 'increasing' ? 'trend-up' : 
+                              trends.trend_direction === 'decreasing' ? 'trend-down' : 'trend-stable';
+            
+            const trendIcon = trends.trend_direction === 'increasing' ? 'fa-arrow-up' : 
+                             trends.trend_direction === 'decreasing' ? 'fa-arrow-down' : 'fa-arrow-right';
+
+            const html = `
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card border-primary">
+                            <div class="card-body text-center">
+                                <i class="fas ${trendIcon} fa-2x ${trendClass} mb-2"></i>
+                                <h5 class="card-title ${trendClass}">${trends.trend_direction.toUpperCase()}</h5>
+                                <p class="small text-muted">Overall Trend</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <strong>Period:</strong> ${trends.first_year} - ${trends.last_year}<br>
+                                <strong>Change:</strong> ${trends.percent_change.toFixed(1)}%<br>
+                                <strong>Correlation:</strong> ${trends.correlation.toFixed(3)}
+                            </div>
+                            <div class="col-md-6">
+                                <strong>First Value:</strong> ${trends.first_value.toFixed(2)}<br>
+                                <strong>Last Value:</strong> ${trends.last_value.toFixed(2)}<br>
+                                <strong>Mean:</strong> ${trends.mean_value.toFixed(2)}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            container.innerHTML = html;
+        }
+
+        // Top States Analysis
+        async function loadTopStatesAnalysis() {
+            const container = document.getElementById('topStatesResults');
+            container.innerHTML = '<div class="text-center"><i class="fas fa-spinner fa-spin"></i> Loading rankings...</div>';
+
+            try {
+                const response = await fetch('/api/analytics/top-states?limit=5');
+                const data = await response.json();
+
+                if (data.success) {
+                    displayTopStates(data.data);
+                } else {
+                    container.innerHTML = `<div class="alert alert-danger">Error: ${data.error}</div>`;
+                }
+            } catch (error) {
+                container.innerHTML = `<div class="alert alert-danger">Error: ${error.message}</div>`;
+            }
+        }
+
+        // Display top states
+        function displayTopStates(states) {
+            const container = document.getElementById('topStatesResults');
+            
+            if (!states || states.length === 0) {
+                container.innerHTML = '<div class="text-muted text-center">No data available</div>';
+                return;
+            }
+
+            let html = '<div class="list-group">';
+            states.forEach((state, index) => {
+                const medalClass = index === 0 ? 'text-warning' : index === 1 ? 'text-secondary' : index === 2 ? 'text-warning' : 'text-muted';
+                const medalIcon = index === 0 ? 'fa-medal' : index === 1 ? 'fa-medal' : index === 2 ? 'fa-medal' : 'fa-circle';
+                
+                html += `
+                    <div class="list-group-item d-flex justify-content-between align-items-center">
+                        <div>
+                            <i class="fas ${medalIcon} ${medalClass} me-2"></i>
+                            <strong>${state.state}</strong>
+                        </div>
+                        <span class="badge bg-primary rounded-pill">${state.mortality_rate.toFixed(1)}</span>
+                    </div>
+                `;
+            });
+            html += '</div>';
+            
+            container.innerHTML = html;
+        }
+
+        // Outlier Analysis
+        async function loadOutlierAnalysis() {
+            const container = document.getElementById('outlierResults');
+            container.innerHTML = '<div class="text-center"><i class="fas fa-spinner fa-spin"></i> Detecting outliers...</div>';
+
+            try {
+                const response = await fetch('/api/analytics/outliers');
+                const data = await response.json();
+
+                if (data.success) {
+                    displayOutliers(data.data);
+                } else {
+                    container.innerHTML = `<div class="alert alert-danger">Error: ${data.error}</div>`;
+                }
+            } catch (error) {
+                container.innerHTML = `<div class="alert alert-danger">Error: ${error.message}</div>`;
+            }
+        }
+
+        // Display outliers
+        function displayOutliers(outlierData) {
+            const container = document.getElementById('outlierResults');
+            
+            if (outlierData.error) {
+                container.innerHTML = `<div class="alert alert-warning">${outlierData.error}</div>`;
+                return;
+            }
+
+            const outliers = outlierData.outliers.slice(0, 5); // Show top 5
+            
+            let html = `
+                <div class="mb-3">
+                    <small class="text-muted">
+                        Found ${outlierData.total_outliers} outliers out of ${outlierData.total_records} records
+                    </small>
+                </div>
+            `;
+
+            if (outliers.length > 0) {
+                html += '<div class="list-group">';
+                outliers.forEach(outlier => {
+                    html += `
+                        <div class="list-group-item">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h6 class="mb-1">${outlier.state} - ${outlier.year}</h6>
+                                <span class="badge outlier-badge">${outlier.z_score.toFixed(2)}σ</span>
+                            </div>
+                            <p class="mb-1 small">${outlier.cancer_type}</p>
+                            <small>Value: ${outlier.value.toFixed(2)} (${outlier.deviation_from_mean.toFixed(2)} from mean)</small>
+                        </div>
+                    `;
+                });
+                html += '</div>';
+            } else {
+                html += '<div class="text-muted text-center">No significant outliers detected</div>';
+            }
+            
+            container.innerHTML = html;
+        }
+
+        // Correlation Analysis
+        async function loadCorrelationAnalysis() {
+            const container = document.getElementById('correlationResults');
+            container.innerHTML = '<div class="text-center"><i class="fas fa-spinner fa-spin"></i> Calculating correlations...</div>';
+
+            try {
+                const response = await fetch('/api/analytics/correlations');
+                const data = await response.json();
+
+                if (data.success) {
+                    displayCorrelations(data.data);
+                } else {
+                    container.innerHTML = `<div class="alert alert-danger">Error: ${data.error}</div>`;
+                }
+            } catch (error) {
+                container.innerHTML = `<div class="alert alert-danger">Error: ${error.message}</div>`;
+            }
+        }
+
+        // Display correlations
+        function displayCorrelations(correlationData) {
+            const container = document.getElementById('correlationResults');
+            
+            if (correlationData.error) {
+                container.innerHTML = `<div class="alert alert-warning">${correlationData.error}</div>`;
+                return;
+            }
+
+            let html = '<div class="row">';
+            
+            Object.values(correlationData.correlations).forEach(corr => {
+                const absCorr = Math.abs(corr.correlation);
+                const strengthClass = absCorr >= 0.6 ? 'correlation-strong' : 
+                                   absCorr >= 0.4 ? 'correlation-moderate' : 'correlation-weak';
+                
+                html += `
+                    <div class="col-md-6 mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-title">${corr.metric1.replace('_', ' ')} vs ${corr.metric2.replace('_', ' ')}</h6>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <span class="badge ${strengthClass} text-white">${corr.correlation.toFixed(3)}</span>
+                                    <small class="text-muted">${corr.interpretation}</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            html += '</div>';
+            container.innerHTML = html;
+        }
+    </script>
+</body>
+</html>

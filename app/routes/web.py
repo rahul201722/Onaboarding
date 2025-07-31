@@ -30,6 +30,15 @@ def create_web_routes(data_service: DataService, viz_service: VisualizationServi
             logger.error(f"Error loading dashboard: {e}")
             return render_template('error.html', error=str(e)), 500
     
+    @web_bp.route('/analytics')
+    def analytics():
+        """Analytics dashboard page."""
+        try:
+            return render_template('analytics.html')
+        except Exception as e:
+            logger.error(f"Error loading analytics dashboard: {e}")
+            return render_template('error.html', error=str(e)), 500
+    
     @web_bp.route('/choropleth')
     def choropleth():
         """Choropleth map visualization."""

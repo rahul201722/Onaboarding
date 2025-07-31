@@ -6,6 +6,7 @@ import geopandas as gpd
 import logging
 from typing import Optional, List, Dict, Any
 from app.services.database import DatabaseService
+from app.services.cache import CacheService
 from app.config import Config
 
 logger = logging.getLogger(__name__)
@@ -13,15 +14,21 @@ logger = logging.getLogger(__name__)
 class DataService:
     """Service class for data operations."""
     
-    def __init__(self, db_service: DatabaseService, config: Config):
+    def __init__(self, db_service: DatabaseService, config: Config, cache_service: Optional[CacheService] = None):
         self.db_service = db_service
         self.config = config
+        self.cache_service = cache_service or CacheService(config.CACHE_DEFAULT_TIMEOUT)
         self._shapefile_cache = None
     
-    def get_cancer_data(self, 
-                       state: Optional[str] = None, 
-                       year: Optional[int] = None,
-                       cancer_type: Optional[str] = None) -> pd.DataFrame:
+    @property
+    def get_cancer_data(self):
+        """Return cached version of get_cancer_data method."""
+        return self.cache_service.cache_dataframe(self._get_cancer_data_impl)
+    
+    def _get_cancer_data_impl(self, 
+                             state: Optional[str] = None, 
+                             year: Optional[int] = None,
+                             cancer_type: Optional[str] = None) -> pd.DataFrame:
         """Get cancer incidence and mortality data with optional filters."""
         
         base_query = """
